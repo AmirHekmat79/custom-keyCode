@@ -1,0 +1,39 @@
+
+.informContent{
+    display:flex ;
+    justify-content : center;
+    align-items : center ;
+    height : 40vh;
+}
+
+.h2Element{
+    font-family : 'Courgette', cursive;
+    font-size : 30px;
+
+}
+h3{
+    font-family:'Courgette', cursive;
+}
+
+.keyCode{
+    font-size:300px;
+}
+
+h6{
+    font-family:'Courgette', cursive ;
+}
+
+@media(max-width : 992px){
+    .h2Element{
+        font-size : 18px;
+    }
+}
+
+.eventDataContent{
+    display : none;
+}
+
+.card:hover{
+transform:translateY(-10px) ;
+transition: all 0.7s;
+}
